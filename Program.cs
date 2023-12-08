@@ -16,7 +16,7 @@ namespace Snake
                 Profile = ContextProfile.Compatability,
             };
 
-            Game game = new Game(gSettings, nSettings);
+          Game game = new Game(gSettings, nSettings);
          
                 game.Run();
            
